@@ -69,7 +69,7 @@ This initializes a new Git repository in the current directory. After running gi
 
 ****************************REPOSITORY**************************************
 
-I want to make a particular folder or repo to a git repo.. there commands___
+I want to make a particular folder or repo to a git repo..  and push the changes ...their commands___
 
 git init
 git remote add origin <--link-->
@@ -99,6 +99,45 @@ git branch -M main (to rename branch)
 i want to check the current branch name ;
 
 git branch (to check branch)
+
+
+***********************Merging Code*********************************
+
+
+we have a base branch (main branch) and feature branch which comes from main branch;
+
+WhenEver we Have same code in the end of base branch and feature branch then they are able to marge in github . this is the condition.
+
+1st way to merging the code through command line;
+
+git diff <-branch name-> (to compare commits, branches, files & more)
+when i add extra feature in feature branch that shows +(extra feature).
+
+git merge <-branch name-> (to merger 2 branches);
+if it shows +(Extra Feature) then it is able to merg. the we use (git merge <-branch name->) command;
+
+2nd way to merging the code through generate pull request (PR);
+for merging two branches we create pull request(PR). pull request means it lets you tell others about changes you've pushed to branch in a repository on GitHub.
+
+In a company,PR review through product manager who works on main branch .they check whatever i want to changes and add new feature. if they accept the request then it pushes in main branch   or they can comment there that some changes you have to do there; 
+
+
+when i merger the base branch with feature branch. it merges in github but not shows in local system. so there have a command;;;;;_____
+
+whenever we want to bring remote changes in local thers is a command. (Pull command)
+
+git pull origin main (used to fetch and download content form a remote repo and immediately update the local rep to match that content).
+
+
+
+
+
+
+
+
+
+
+
 
 
 
